@@ -1,0 +1,20 @@
+# Ignore IDE specific files
+.vscode/*
+
+# Ignore all test files
+tests/*
+*test*
+
+# Include output files
+!out/*
+
+# Ignore build artifacts
+bin/*
+*.exe
+
+# Ignore temporary files
+lib/*
+*.o
+
+# Ignore the past output files
+src/*.txt
